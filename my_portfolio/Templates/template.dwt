@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="title" -->
+<title>Through My Lens</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/xey2klr.css">
+<link rel="stylesheet" href="https://use.typekit.net/xey2klr.css">
+<link rel="stylesheet" href="https://use.typekit.net/xey2klr.css">
+<!-- TemplateBeginEditable name="style" -->	
+<style type="text/css">
+</style>
+<!-- TemplateEndEditable -->
+	<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+
+<body>
+		
+	<div id="container">
+  <header></header>
+  <nav>
+	<ul>
+		<li><a href="../pages/about.html">About</a></li>
+		<li><a href="../pages/blog.html">Blog</a></li>
+		<li><a href="../pages/gallery.html">Gallery</a></li>
+		<li><a href="../pages/contact.html">Contact</a></li>
+			
+	</ul>
+	</nav>
+  <!--Begin floated elements-->
+  <aside>
+  <h3>I'm a man, a brother, a son, a friend, a chronic insomniac, a student, and a longboarder.</h3><h3>Join me as we explore life through my eyes.</h3><h3>By: Stephen Horn</h3> </aside>
+  <!-- TemplateBeginEditable name="main-content" -->
+  <main>
+    <h1>Page Title</h1>
+  </main>
+  <!-- TemplateEndEditable -->  <!--End floated elements-->
+  <footer></footer>
+</div>
+</body>
+	</head>
+</html>

@@ -1,0 +1,86 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    min-height: 100%;
+    background-image: url("../images/ukraine-header.jpg");
+}
+
+.pimg2{
+    min-height: 500px;
+    background-image: url("../images/ukraine-1.jpg");
+    opacity: 0.9;
+}
+
+.pimg3{
+    min-height: 500px;
+    background-image: url("../images/ukraine-2.png");
+    opacity: 0.9;
+}
+
+.pimg4{
+    background-image: url("../images/ukraine-3.jpg");
+    min-height: 500px;
+    opacity: 0.9;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#212D59;
+  color:darkgoldenrod;
+}
+
+.section-dark{
+  background-color:darkgoldenrod;
+  color:#212D59;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    border-radius: 0px;
+}
+
+.ptext .border{
+    background-color: #131F4E;
+    color: darkgoldenrod;
+    padding: 20px;
+    border: thick none #000000;
+    border-radius: 60px;
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}

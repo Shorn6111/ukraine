@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+body {
+    color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/sky_body_background.jpeg");
+	}
+
+#container{
+    width: 1280px;
+    height: auto;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+/*Float the aside so it displays next to main.*/
+aside {
+    width: 150px;
+    height: 3300px;
+    float: left;
+	background-color:#6BBDEC
+}
+header {
+    width: 1280px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/bird_header.jpg");    
+ }
+/*Float main so it shows up nexty to the aside. */
+main {
+    width: 1100px;
+    height: 3280px;
+    float: left;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 14pt;
+    background-color: #FFFFFF;
+}
+th {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 28px;
+    border: 5px solid #191919;
+}
+article {
+    margin-bottom: 30px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+
+.floatLeft{
+	float: left;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 1280px;
+    height: 50px;
+    clear: both;
+    background-color:#6BBDEC;
+}
+
+h1 {
+    color:#1570A4;
+	font-family: politica,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+}
+
+p {
+font-family: canada-type-gibson,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+nav {
+    width: 1280px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    background-color:#6BBDEC
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    width: 60px;
+    float: left;
+    margin-right: 60px;
+    font-size: 18pt;
+    font-family: neonoir, sans-serif;
+}
+#container nav ul {
+	margin: auto;
+	width: 525px;
+}
+
+nav a:link {
+    color:#000000;
+	padding: 10px;
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #5F2575;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #6BE7FE;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}.submit_btn {
+    width: 170px;
+	height: 30px;
+    background-color: #6BE7FE;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+
+
+.submit_btn:hover {
+-webkit-box-shadow: 6px 6px 35px 1px #000000;
+box-shadow: 6px 6px 35px 1px #000000;
+}
+.column   {
+    width: 250px;
+    height: 750px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+/*Rules the page will follow for Tablet-sized devices*/
+@media (max-width : 768px ){
+	#container{width:768px;}
+	header{width:768px;}
+	nav{width:768px;}
+	main{width:598px;
+	height:2586px;
+	}
+	footer{width:768px;}
+	.column{margin: 0px 20px 0px 25px;}
+}
+/*Rules the page will folow on mobile devices*/
+@media only screen and (max-width : 375px ){
+	#container{width:300px;}
+	header{width:300px;
+		background-image: url("../images/300px_header.jpg")
+	}
+	nav{width: 300px;
+		height: 275px;
+		position: static;
+		background-color:#ffffff;
+	}
+	
+	main{
+		width:300px;
+	}
+	
+	footer{
+		width:300px;
+	}
+	
+	aside{
+		display: none;
+	}
+	#container nav li {
+		display: list-item;
+		list-style-type: none;
+		float: none;
+		margin: 10px 0px 20px 0px;
+		width: 260px;
+		text-align: center;
+	}
+		#container nav ul {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 200px;
+	background-color:#6BBDEC;
+	color: white;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+}
+video {
+    width: 600px;
+    margin: auto;
+    height: 600px;
+}
